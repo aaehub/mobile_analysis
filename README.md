@@ -1,6 +1,6 @@
 # Mobiles Dataset Analysis (2025)
 
-> **Just want to see the results?** Open [`main.html`](main.html) in your browser — no Python, no setup, no code to run.
+> **Just want to see the results?** [Click here to preview the notebook](https://htmlpreview.github.io/?https://github.com/aaehub/mobile_analysis/blob/main/main.html) — no Python, no setup, no code to run.
 
 A data analysis and machine learning project that explores mobile phone specifications and pricing across multiple global markets, culminating in a price prediction model.
 
@@ -55,7 +55,7 @@ mobile_analysis/
 ├── Mobiles Dataset (2025).csv     # Raw mobile phone dataset (930 phones)
 ├── normlized_transformed.csv      # Fully processed, ML-ready dataset
 ├── main.ipynb                     # Price prediction notebook
-├── main.html                      # Rendered notebook — open in browser, no setup needed
+├── main.html                      # Rendered notebook — preview at htmlpreview.github.io
 ├── requirements.txt               # Python dependencies
 └── README.md
 ```

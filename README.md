@@ -1,5 +1,7 @@
 # Mobiles Dataset Analysis (2025)
 
+> **Just want to see the results?** Open [`main.html`](main.html) in your browser — no Python, no setup, no code to run.
+
 A data analysis and machine learning project that explores mobile phone specifications and pricing across multiple global markets, culminating in a price prediction model.
 
 ## Project Summary
@@ -11,7 +13,7 @@ A data analysis and machine learning project that explores mobile phone specific
 - All spec columns were raw strings with units (e.g. `"174g"`, `"6GB"`, `"3,600mAh"`)
 - All price columns were strings with currency symbols (e.g. `"USD 799"`, `"PKR 224,999"`)
 
-**2. Data Comparison (3 Files)**
+**2. Data**
 
 | File | Rows | Columns | Numeric Cols | Processing |
 |---|---|---|---|---|
@@ -49,11 +51,11 @@ A data analysis and machine learning project that explores mobile phone specific
 ## Files
 
 ```
-kmobile analysis project/
+mobile_analysis/
 ├── Mobiles Dataset (2025).csv     # Raw mobile phone dataset (930 phones)
-├── normlized.csv                  # Copy of raw (no changes)
 ├── normlized_transformed.csv      # Fully processed, ML-ready dataset
 ├── main.ipynb                     # Price prediction notebook
+├── main.html                      # Rendered notebook — open in browser, no setup needed
 ├── requirements.txt               # Python dependencies
 └── README.md
 ```

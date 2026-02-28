@@ -16,7 +16,6 @@ A data analysis and machine learning project that explores mobile phone specific
 | File | Rows | Columns | Numeric Cols | Processing |
 |---|---|---|---|---|
 | `Mobiles Dataset (2025).csv` | 930 | 15 | 1 | None — raw original data |
-| `normlized.csv` | 930 | 15 | 1 | Identical to raw — no changes applied |
 | `normlized_transformed.csv` | 930 | 19 | 16 | Fully processed — units stripped, currencies converted, cameras split, `device_age` engineered |
 
 **3. Transformations applied in `normlized_transformed.csv`**
@@ -50,7 +49,7 @@ A data analysis and machine learning project that explores mobile phone specific
 ## Files
 
 ```
-khan project/
+kmobile analysis project/
 ├── Mobiles Dataset (2025).csv     # Raw mobile phone dataset (930 phones)
 ├── normlized.csv                  # Copy of raw (no changes)
 ├── normlized_transformed.csv      # Fully processed, ML-ready dataset
